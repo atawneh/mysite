@@ -6,6 +6,7 @@
     <link href="https://fonts.googleapis.com/css?family=Spicy+Rice" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch" rel="stylesheet">
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
@@ -19,7 +20,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-default" style="background: #73978C;color: white;margin: 0;">
+    <nav  id="first" class="navbar navbar-default" style="background: #73978C;color: white;margin: 0;">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -30,42 +31,35 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Brand</a>
+                <a class="navbar-brand" href="#home">Atawneh</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-                    <li><a href="#">Link</a></li>
-                    <li><a href="#">Link</a></li>
-                    <li><a href="#">Link</a></li>
+                    <li class="active"><a id="click1" href="#home">Home<span class="sr-only">(current)</span></a></li>
+                    <li><a id="click2" href="#about">About Me</a></li>
+                    <li><a id="click3" href="#skills">Skills</a></li>
+                    <li><a id="click4" href="#mywork">My Work</a></li>
+                    <li><a id="click5" href="#contactme">Contact Me</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
     </nav>
-    <div>
-        <div class="col-md-12" style="background: #EAE1D0;height: 300px;color:white">
-                <div class="col-md-3">
-                        <img class="col-md-5" style="padding-top:30px;" src="images/teamwork.svg" alt="">
-                        <div class="clearfix"><br></div>
-
-                        <img class="col-md-4" src="images/phone.svg" style="padding-top:50px;" alt="">
-                        <img class="col-md-3" src="images/creativity.svg" alt="" style="padding-top:70px;">
-                    </div>
-            <div class="col-md-6 top-cover" style="padding:130px;color: #A63340;font-family: 'Indie Flower', cursive;font-size: 2em;font-weight: bold;">
+    <div id="home">
+        <div class="col-md-12 my" style="padding-top: 200px; height: 600px;color:white">
+            <div class="row" style="color: white;
+            font-size: 3.6em;font-weight: bold">
+                MOHAMMAD ATAWNEH
+            </div>
+            <div class="row" style="color: white;
+            font-family: 'Chakra Petch', sans-serif;letter-spacing: 6px;font-size: 2em;font-weight: bold">
                 Computer Systems Engineering
             </div>
-            <div class="col-md-3">
-                <img class="col-md-5" style="padding-top:30px;" src="images/teamwork.svg" alt="">
-                <div class="clearfix"><br></div>
-                <img class="col-md-4" src="images/phone.svg" style="padding-top:50px;" alt="">
-                
-                <img class="col-md-3" src="images/creativity.svg" alt="" style="padding-top:70px;">
-            </div>
         </div>
+        <div class="clearfix"><br></div>
     </div>
-    <div style="background: #294550">
+    <div id="about" style="background: #A63340">
         <div class="container">
             <span class="glyphicon glyphicon-minus border-title"></span>
             <div class="title">About Me</div>
@@ -79,7 +73,7 @@
             I have experience in some web application issues.
             I worked at bizloud for a year and worked on several projects during my work. </div>
     </div>
-    <div style="background: #EAE1D0">
+    <div id="skills" class="skills">
         <div class="container">
             <span class="glyphicon glyphicon-minus border-title"></span>
             <div class="title">Skills</div>
@@ -129,7 +123,7 @@
 
     </div>
 
-    <div style="background: #A63340">
+    <div id="mywork" class="my-work">
         <div class="container">
             <span class="glyphicon glyphicon-minus border-title"></span>
             <div class="title">My Work</div>
@@ -139,7 +133,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <div style="font-family: 'Spicy Rice', cursive;text-align: center;color: white;font-size: 20px;color: #129acd">
-                        1-2018 To 11-2018
+                        1-2018 To Now
                     </div>
                     <img src="images/bizloud.png" class="col-md-12" alt="">
 
@@ -150,7 +144,8 @@
                     set of practices aimed at managing the
                     electoral campaigns and follow-up all stages in order
                     to facilitate the electoral process and ensure integrity.
-                    <br><br>
+                    <br><hr><br>
+            
                     <span style="font-size: 20px;font-family: 'Spicy Rice', cursive;color:#129acd">Shubak:</span><br> A
                     set
                     of practices aimed to improve customer
@@ -162,26 +157,11 @@
                     facilitate work and reduce the time and effort spent on work.
                 </div>
             </div>
-            <hr>
-            <div class="row">
-                <div class="col-md-4">
-                    <div style="font-family: 'Spicy Rice', cursive;text-align: center;color: white;font-size: 20px;color: #129acd">
-                        NOW
-                    </div>
-                    <img src="images/aeliasoft.png" style="margin-top: 30px;padding: 40px" class="col-md-12" alt="">
-
-                </div>
-                <ul class="col-md-8" style="color:white;font-size: 16px;font-family: 'Libre Baskerville', serif;margin-top: 60px">
-                    <li style="font-size: 20px;font-family: 'Spicy Rice', cursive;color:#129acd">IMPORTOS</li><br>
-                    <li style="font-size: 20px;font-family: 'Spicy Rice', cursive;color:#129acd">SIMFRESH</li><br>
-
-                </ul>
-            </div>
         </div>
         <div class="clearfix"><br></div>
 
     </div>
-    <div style="background: #403142">
+    <div id="contactme" style="background: #403142">
         <div class="container">
             <span class="glyphicon glyphicon-minus border-title"></span>
             <div class="title">Contact Me</div>
@@ -203,14 +183,77 @@
                 <div class="col-md-9" style="color: white;font-size: 25px">
                     +972595242658
                 </div>
-                <div class="clearfix"><br><br><br></div>
             </div>
             <img class="col-md-4" style="float: right;margin-top: -100px" src="images/contactus.svg" alt="">
         </div>
     </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">&uarr;</button>
+
 </body>
+
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
     crossorigin="anonymous"></script>
 
+
+
+
+    <script> 
+     $(document).ready(function () {
+            $("#click1").click(function () {
+                $('html, body').animate({
+                    scrollTop: $("#home").offset().top
+                }, 1000);
+            });
+        });
+        $(document).ready(function () {
+            $("#click2").click(function () {
+                $('html, body').animate({
+                    scrollTop: $("#about").offset().top
+                }, 1000);
+            });
+        });
+        $(document).ready(function () {
+            $("#click3").click(function () {
+                $('html, body').animate({
+                    scrollTop: $("#skills").offset().top
+                }, 1000);
+            });
+        });
+        $(document).ready(function () {
+            $("#click4").click(function () {
+                $('html, body').animate({
+                    scrollTop: $("#mywork").offset().top
+                }, 1000);
+            });
+        });
+        $(document).ready(function () {
+            $("#click5").click(function () {
+                $('html, body').animate({
+                    scrollTop: $("#contactme").offset().top
+                }, 1000);
+            });
+        });
+        window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = $('html, body').animate({
+                    scrollTop: $("#first").offset().top
+                }, 1000);;
+    document.documentElement.scrollTop = $('html, body').animate({
+                    scrollTop: $("#first").offset().top
+                }, 1000);;
+}
+
+    </script>
 </html>
